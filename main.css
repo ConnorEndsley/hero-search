@@ -184,3 +184,11 @@ img{
     height: 4px;
     background-color: var(--red-color);
 }
+
+/* app body content */
+.app-body-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 4rem;
+    margin-right: 2rem;
+}
